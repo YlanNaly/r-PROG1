@@ -14,4 +14,4 @@ const isBearable = (size,array) =>{
     }
     return bearable;
 }
-console.log(isBearable(size,input))
+module.exports = isBearable;
